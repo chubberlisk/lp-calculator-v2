@@ -98,10 +98,32 @@ class PlayerLifePoints extends React.Component {
   }
 }
 
+class Duel extends React.Component {
+  resetLifePoints() {
+    console.log("Meow, how do dis?");
+  }
+
+  render() {
+    return (
+      <div className="duel">
+        <div className="container">
+          <button
+            className="btn btn-warning"
+            onClick={() => this.resetLifePoints()}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    );
+  }
+}
+
 function App() {
   return (
     <div>
       <PlayerLifePoints name="Player One" />
+      <Duel />
       <PlayerLifePoints name="Player Two" />
     </div>
   );
