@@ -1,0 +1,8 @@
+.duel {
+  height: 20vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

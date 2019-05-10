@@ -1,0 +1,12 @@
+.playerLifePoints {
+  height: 40vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.playerLifePoints h1 {
+  font-size: 68px;
+}
